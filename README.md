@@ -20,3 +20,6 @@ Perform the following tasks in Python using the delays_2018.csv, delays_2019.csv
  8. Determined the overall average number of delays per airport.
  9. Displayed the three carriers with the lowest number of delayed flights.
  10 Requested that the user input an airline. Then plotted the monthly number of national air system (NAS) delay minutes for that airline. Displayed whether the trend is increasing or decreasing over the last 2 months.
+
+
+![image](https://user-images.githubusercontent.com/45625862/182099905-38dda91d-eb14-45fc-be48-fcdbaf520086.png)
