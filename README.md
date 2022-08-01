@@ -1,4 +1,4 @@
-# Flight-Arrival-Delay-Analysis
+# Flight-Arrival-Delay-Analysis_Exploratory Data Analysis
 This project aim to represent flight arrival delays for 18 airlines in the United States using Python
 
 ## Libraries 
