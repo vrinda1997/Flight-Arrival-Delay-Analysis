@@ -7,6 +7,7 @@ This project aim to represent flight arrival delays for 18 airlines in the Unite
  ## Dataset
  Contains 40,000 records, which represent flight arrival delays for 18 airlines in the United States. Each row in the dataset represents a summary of delay data for a     carrier-airport pair for the specified month. 
  The dataset was created in January 2021 and contains data from January 1, 2018 to December 31, 2019 sourced from the Bureau of Transportation Statistics.
+ 
 
 ## Data Analytics Tasks
 Perform the following tasks in Python using the delays_2018.csv, delays_2019.csv and airport_coordinates.csv datasets available from this GitHub repo.
@@ -21,5 +22,7 @@ Perform the following tasks in Python using the delays_2018.csv, delays_2019.csv
  9. Displayed the three carriers with the lowest number of delayed flights.
  10 Requested that the user input an airline. Then plotted the monthly number of national air system (NAS) delay minutes for that airline. Displayed whether the trend is increasing or decreasing over the last 2 months.
 
-
-![image](https://user-images.githubusercontent.com/45625862/182099905-38dda91d-eb14-45fc-be48-fcdbaf520086.png)
+## Data Dictionary (delays_2018.csv, delays_2019.csv)
+Each row in the datasets represents a summary of delay data for a carrier-airport pair for the specified month. For example, a row may represent delay data for May 2018 for American Airlines flights arriving into JFK airport in New York City.
+When multiple causes are assigned to one delayed flight, each cause is prorated based on delayed minutes it is responsible for. The numbers are rounded and may not add up to the total.
+![image](https://user-images.githubusercontent.com/45625862/182100227-b3602b6d-36a1-42b5-8e34-31a516ade6c4.png)
